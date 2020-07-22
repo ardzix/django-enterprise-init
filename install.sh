@@ -5,7 +5,7 @@ reset=`tput sgr0`
 current_dir=$PWD
 
 echo "${green}Preparing Virtual Environment...${reset}"
-virtualenv ../venv
+python3 -m venv ../venv
 source ../venv/bin/activate
 
 
@@ -14,7 +14,7 @@ echo "Please select your environment"
 select choice in "mac" "linux"; do
     case $choice in
         linux ) pip install gdal==2.2.4; break;;
-        mac ) pip install gdal==2.3.1; break;;
+        mac ) pip install gdal==3.1.2; break;;
     esac
 done
 pip install -r requirements.txt

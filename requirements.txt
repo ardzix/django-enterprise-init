@@ -1,11 +1,11 @@
 -e git+https://github.com/ardzix/django-datatable.git#egg=datatable
-enterprise==0.4.1
-# -e git+https://github.com/ardzix/django-enterprise-core.git#egg=enterprise
+# enterprise==0.4.1
+-e git+https://github.com/ardzix/django-enterprise-core.git#egg=enterprise
+psycopg2
+fabric3
 timeago==1.0.8
-psycopg2-binary==2.7.5
 python-dateutil==2.7.3
 requests==2.20.0
-fabric3
 # gdal==2.2.4 # server
 # gdal==2.3.1 # local
 social-auth-app-django==2.1.0
