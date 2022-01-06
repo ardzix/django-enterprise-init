@@ -25,7 +25,7 @@ django-markdown-deux==1.0.5
 feedparser==5.2.1
 python-slugify==2.0.1
 django-extensions==2.1.9
-celery==4.4.2
+celery==5.2.2
 flower==0.9.4
 pylint==2.5.3
 autopep8==1.5.3
